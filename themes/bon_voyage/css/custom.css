@@ -435,7 +435,7 @@ Custom blocks
 	display: block;
 	color: #fff;
 	font-size: 16px;
-	background: #00be93;
+	background: #BD2A26;
 	line-height: 20px;
 	height: 20px;
 	width: 20px;
@@ -637,7 +637,7 @@ Custom blocks
             padding: 20px; } }
         #block-views-block-view-1-block-1 .views-view-grid>.row>.col h2:before {
           content: "";
-          background: #00be93;
+          background:#BD2A26;
           position: absolute;
           top: 0;
           left: 0;
