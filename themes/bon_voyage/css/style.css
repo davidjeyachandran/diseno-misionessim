@@ -40,7 +40,7 @@ a, a:focus {
 }
 
 a:hover{
-	color: #00be93;
+	color: #BD2A26;
 	text-decoration: none;
 }
 
@@ -90,18 +90,18 @@ input[type=submit]{
 }
 
 input[type=submit]:hover{
-	background: #00be93;
-	border-color: #00be93;
+	background: #BD2A26;
+	border-color: #BD2A26;
 	color: #fff;
 }
 
 input[type=submit].button--primary{
 	background: none;
-	border-color: #00be93;
+	border-color: #BD2A26;
 }
 
 input[type=submit].button--primary:hover{
-	background: #00be93;
+	background: #BD2A26;
 	color: #fff;
 }
 
@@ -184,7 +184,7 @@ Main Classes
 }
 
 .breadcrumb a:hover {
-    color: #00be93;
+    color: #BD2A26;
 }
 
 
@@ -238,7 +238,7 @@ Main Classes
 }
 
 .tabs ul.primary li a:hover{
-	color: #00be93;
+	color: #BD2A26;
 }
 
 .tabs ul.primary li.is-active a:hover{
@@ -415,7 +415,7 @@ nav#top-nav-container {
 }
 
 #top-navbar-row-1  ul.menu li a:hover {
-  color: #00be93;
+  color: #BD2A26;
 }
 
 /* main menu */
@@ -463,7 +463,7 @@ nav#main-nav-container .navbar-toggle span.icon-bar{
 }
 
 nav#main-nav-container .navbar-toggle:hover span.icon-bar{
-	background: #00be93;
+	background: #BD2A26;
 }
 
 nav#main-nav-container .navbar-title {
@@ -827,7 +827,7 @@ toTop
   left: 0;
   width: 58px;
   height: 58px;
-  border: 1px solid #00be93;
+  border: 1px solid #BD2A26;
   -webkit-transform: scale(1);
   -ms-transform: scale(1);
   -o-transform: scale(1);
