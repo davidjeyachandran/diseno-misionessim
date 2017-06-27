@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr" prefix="content: http://purl.org/rss/1.0/modules/content/  dc: http://purl.org/dc/terms/  foaf: http://xmlns.com/foaf/0.1/  og: http://ogp.me/ns#  rdfs: http://www.w3.org/2000/01/rdf-schema#  schema: http://schema.org/  sioc: http://rdfs.org/sioc/ns#  sioct: http://rdfs.org/sioc/types#  skos: http://www.w3.org/2004/02/skos/core#  xsd: http://www.w3.org/2001/XMLSchema# ">
-  
+
 <head>
     <meta charset="utf-8" />
 <meta name="Generator" content="Drupal 8 (https://www.drupal.org)" />
@@ -10,7 +10,7 @@
 <link rel="shortcut icon" href="images/favicon_0.ico" type="image/vnd.microsoft.icon">
     <title>MisionesSim</title>
     <style media="all">
-      @import url("core/assets/vendor/normalize-css/normalize.css");
+      @import url("css/vendor/normalize.css");
       @import url("core/themes/stable/css/container-inline.module.css");
       @import url("core/themes/stable/css/clearfix.module.css");
       @import url("core/themes/stable/css/hidden.module.css");
@@ -18,10 +18,10 @@
       @import url("core/themes/classy/css/container-inline.css");
       @import url("core/themes/classy/css/form.css");
       @import url("core/themes/classy/css/menu.css");
-      @import url("css/jquery.bxslider.css");
-      @import url("css/homeslider.css");
-      @import url("css/animate.css");
-      @import url("css/bootstrap/bootstrap.min.css");
+      @import url("css/vendor/jquery.bxslider.css");
+      @import url("css/vendor/homeslider.css");
+      @import url("css/vendor/animate.css");
+      @import url("css/vendor/bootstrap.min.css");
       @import url("css/font-awesome.min.css");
       @import url("css/style.css");
       @import url("css/custom.css");
@@ -1035,19 +1035,6 @@ $500.00
 		<h4>Follow Us</h4>
 		<div class="row hook_footer">
 
-<div id="fb-root"></div>
-<script>
-<!--//--><![CDATA[// ><!--
-(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = "http://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.5";
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));
-//--><!]]>
-</script><div class="fb-page" data-height="250px" data-href="https://www.facebook.com/saengoinc" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-stream="false" data-show-facepile="true"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/saengoinc"><a href="https://www.facebook.com/saengoinc">Saengo</a></blockquote></div></div>
-
 		</div>
 	</div>
  
@@ -1124,9 +1111,10 @@ $500.00
  
     
     <script type="application/json" data-drupal-selector="drupal-settings-json">{"path":{"baseUrl":"\/","scriptPath":null,"pathPrefix":"","currentPath":"node","currentPathIsAdmin":false,"isFront":true,"currentLanguage":"en"},"pluralDelimiter":"\u0003","ajaxTrustedUrl":{"\/search\/node":true},"styleSwitcher":{"styles":{"custom\/default":{"name":"custom\/default","label":"Default","path":"http:\/\/88-77-88.xyz\/styleswitcher\/css\/bon_voyage","is_default":false,"status":true,"weight":0,"_i":0,"theme":"bon_voyage"},"custom\/style_2":{"label":"Style 2","name":"custom\/style_2","path":"http:\/\/88-77-88.xyz\/themes\/bon_voyage\/css\/styles\/theme2.css","is_default":false,"status":true,"weight":0,"_i":1,"theme":"bon_voyage"},"custom\/style_3":{"label":"Style 3","name":"custom\/style_3","path":"http:\/\/88-77-88.xyz\/themes\/bon_voyage\/css\/styles\/theme3.css","is_default":false,"status":true,"weight":0,"_i":2,"theme":"bon_voyage"},"custom\/style_4":{"label":"Style 4","name":"custom\/style_4","path":"http:\/\/88-77-88.xyz\/themes\/bon_voyage\/css\/styles\/theme4.css","is_default":false,"status":true,"weight":0,"_i":3,"theme":"bon_voyage"},"custom\/style_5":{"label":"Style 5","name":"custom\/style_5","path":"http:\/\/88-77-88.xyz\/themes\/bon_voyage\/css\/styles\/theme5.css","is_default":false,"status":true,"weight":0,"_i":4,"theme":"bon_voyage"}},"default":"custom\/default","enableOverlay":true,"cookieExpire":31536000,"theme":"bon_voyage"},"user":{"uid":0,"permissionsHash":"87c44b7c203e317cb31611426df4e31926ee08f4f1306401615439f8e833fff2"}}</script>
-<script src="core/assets/vendor/domready/ready.min.js"></script>
-<script src="core/assets/vendor/jquery/jquery.min.js"></script>
-<script src="core/assets/vendor/jquery-once/jquery.once.min.js"></script>
+<script src="js/vendor/ready.min.js"></script>
+<script src="js/vendor/jquery.min.js"></script>
+<script src="js/vendor/jquery.once.min.js"></script>
+<script src="js/vendor/jquery.cookie.min.js"></script>
 <script src="core/misc/drupalSettingsLoader.js?v=8.2.3"></script>
 <script src="core/misc/drupal.js?v=8.2.3"></script>
 <script src="themes/bon_voyage/js/bootstrap/bootstrap.min.js"></script>
@@ -1143,7 +1131,7 @@ $500.00
 <script src="themes/bon_voyage/js/jquery.mousewheel.min.js"></script>
 <script src="themes/bon_voyage/js/tm-media-parallax.js"></script>
 <script src="themes/bon_voyage/js/parallax.init.js"></script>
-<script src="core/assets/vendor/jquery.cookie/jquery.cookie.min.js"></script>
+
 
   </body>
 </html>
