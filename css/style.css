@@ -468,7 +468,7 @@ nav#main-nav-container .navbar-toggle:hover span.icon-bar{
 
 nav#main-nav-container .navbar-title {
 	display: none;
-	font: normal 18px/22px "Adamina", serif;
+	font: normal 15px/20px "Adamina", serif;
     text-transform: uppercase;
     color: #fff;
 }
@@ -509,7 +509,7 @@ nav#main-nav-container #block-mainnavigation {
 }
 
 #main-navbar ul.navbar-nav > li > a {
-    font: normal 18px/22px "Adamina", serif;
+    font: normal 15px/20px "Adamina", serif;
     text-transform: uppercase;
     color: #fff;
     display: block;
