@@ -202,7 +202,7 @@ footer .footer-top h4 a {
     transition: all 0.3s ease;
 }
 footer .footer-top h4 a:hover {
-    color: #00be93;
+    color: #BD2A26;
 	text-decoration: none;
 }
 
@@ -319,7 +319,7 @@ footer .footer-top .blockcategories_footer {
       -webkit-border-radius: 5px;
       border-radius: 5px;
       padding: 23px 44px 23px;
-      background: #00be93;
+      background: #BD2A26;
       display: inline-block;
       -moz-transition: all 0.3s ease;
       -o-transition: all 0.3s ease;
@@ -334,7 +334,7 @@ footer .footer-top .blockcategories_footer {
 
 
 #tmhtmlcontent_topColumn li a {
-  background: #00be93; 
+  background: #BD2A26; 
 }
 
 #tmhtmlcontent_topColumn li a:hover {
@@ -396,7 +396,7 @@ footer .footer-top .blockcategories_footer {
       visibility: hidden; }
     
 #tmhtmlcontent_home li a:hover {
-    background: #00be93;
+    background: #BD2A26;
     color: #fff;
 	text-decoration: none;
 }
@@ -435,7 +435,7 @@ Custom blocks
 	display: block;
 	color: #fff;
 	font-size: 16px;
-	background: #00be93;
+	background: #BD2A26;
 	line-height: 20px;
 	height: 20px;
 	width: 20px;
@@ -465,7 +465,7 @@ Custom blocks
 	background: linear-gradient(45deg,rgba(255, 255, 255, 0) 40%,rgba(255, 255, 255, 1) 50%,rgba(255, 255, 255, 0) 60%),
 		linear-gradient(-45deg,rgba(255, 255, 255, 0) 40%,rgba(255, 255, 255, 1) 50%,rgba(255, 255, 255, 0) 60%);
 	background-size: 8px 8px;
-	background-color: #00be93;
+	background-color: #BD2A26;
 }		
 
 #block-styleswitcher .item-list ul li:nth-child(2) a:hover,
@@ -567,7 +567,7 @@ Custom blocks
 		
 #block-views-block-view-1-block-1 .views-view-grid>.row>.col:hover .views-field-title:after {
           bottom: -15px;
-          border-color: #00be93 transparent transparent;
+          border-color: #BD2A26 transparent transparent;
           border-width: 15px 15px 0 15px;
           filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
           opacity: 1;
@@ -637,7 +637,7 @@ Custom blocks
             padding: 20px; } }
         #block-views-block-view-1-block-1 .views-view-grid>.row>.col h2:before {
           content: "";
-          background: #00be93;
+          background:#BD2A26;
           position: absolute;
           top: 0;
           left: 0;
@@ -708,7 +708,7 @@ Custom blocks
 */
 #home-page-tabs {
   border: none;
-  border-top: 5px solid #00be93;
+  border-top: 5px solid #BD2A26;
   text-align: center;
   overflow: hidden;
   padding: 0; }
@@ -727,7 +727,7 @@ Custom blocks
     @media (max-width: 991px) {
       #home-page-tabs > li {
         width: 100%;
-        border-top: 5px solid #00be93; } }
+        border-top: 5px solid #BD2A26; } }
     #home-page-tabs > li a {
       font: normal 24px/31px "Adamina", serif;
       color: #111;
@@ -756,14 +756,14 @@ Custom blocks
         left: calc(50% - 6px);
         top: -6px;
         border-width: 6px 6px 0 6px;
-        border-color: #00be93 transparent transparent transparent; }
+        border-color: #BD2A26 transparent transparent transparent; }
         @media (max-width: 991px) {
           #home-page-tabs > li a:before {
             border-width: 5px 5px 0 5px;
             top: -5px; } }
   #home-page-tabs > li.active a,
   #home-page-tabs > li a:hover {
-    color: #00be93;
+    color: #BD2A26;
     background: none; }
     #home-page-tabs > li.active a:before,
     #home-page-tabs > li a:hover:before {
@@ -771,26 +771,26 @@ Custom blocks
 
 
 #home-page-tabs {
-  border-color: #00be93; }
+  border-color: #BD2A26; }
 
 #home-page-tabs > li a:before {
-  border-color: #00be93 transparent transparent; }
+  border-color: #BD2A26 transparent transparent; }
 
 #home-page-tabs > li.active a, #home-page-tabs > li a:hover,
 .product-name a:hover, a.product-name:hover,
 .price.product-price, .price-percent-reduction {
-  color: #00be93;
+  color: #BD2A26;
 }
 
 .price {
   font-size: 16px;
-  color: #00be93;
+  color: #BD2A26;
   white-space: nowrap;
   list-style: none; }
 
 .price.product-price {
   font: normal 22px/24px "Adamina", serif;
-  color: #00be93;
+  color: #BD2A26;
   margin: 0; }
 
 .old-price {
@@ -808,14 +808,14 @@ Custom blocks
   background: none;
   border: none;
   font: normal 16px/24px "Adamina", serif;
-  color: #00be93;
+  color: #BD2A26;
   padding: 0;
   display: inline-block; }
 
 
 .product-name a:hover, a.product-name:hover,
 .price.product-price, .price-percent-reduction {
-  color: #00be93;
+  color: #BD2A26;
 }
   
 ul.product_list .availability span {
@@ -1233,8 +1233,8 @@ ul.product_list.tab-pane > li {
     margin-left: 5px; }
   .tab-content .btn.btn-default:hover, .tab-content.btn.btn-default:active, .tab-content .btn.btn-default:active:focus, .tab-content .btn.btn-default:focus {
     color: #fff;
-    background: #00be93;
-    border-color: #00be93;
+    background: #BD2A26;
+    border-color: #BD2A26;
     box-shadow: none;
     outline: none; }
 
@@ -1259,7 +1259,7 @@ ul.product_list.tab-pane > li {
     z-index: 5; }
   .tab-content .btn.ajax_add_to_cart_button:before, .tab-content .btn.ajax_add_to_cart_product_button:before {
     content: "";
-    background: #00be93;
+    background: #BD2A26;
     height: 100%;
     width: 0;
     position: absolute;
@@ -1379,7 +1379,7 @@ div.star.star_hover:after {
   text-align: left; }
 
 .sale-label {
-  background: #00be93;
+  background: #BD2A26;
   text-align: right; }
 
 
@@ -1670,7 +1670,7 @@ to {
         -webkit-transition: all 0.3s ease;
         transition: all 0.3s ease; }
       #footer #newsletter_block_left .form-group .btn-sm:hover {
-        background: #00be93;
+        background: #BD2A26;
         color: #fff; }
       #footer #newsletter_block_left .form-group .btn-sm span {
         display: none; }
