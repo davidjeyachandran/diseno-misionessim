@@ -411,6 +411,7 @@ footer .footer-top .blockcategories_footer {
       border-radius: 5px;
       padding: 23px 44px 23px;
       transition: all 0.3s ease;
+      margin: 10%;
       font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 .buttonSpecial:hover{
@@ -1853,7 +1854,8 @@ line-height: 19px;
 .edic_ante
 {
 text-align: center;
-padding: 23px 0px;
+margin:70px auto;
+text-transform: uppercase;
 }
 
 .view-id-recursos .views-exposed-form .views-exposed-widget .form-submit {
