@@ -828,22 +828,7 @@ toTop
   width: 58px;
   height: 58px;
   border: 1px solid #BD2A26;
-  -webkit-transform: scale(1);
-  -ms-transform: scale(1);
-  -o-transform: scale(1);
-  transform: scale(1);
-  -moz-border-radius: 100px;
-  -webkit-border-radius: 100px;
   border-radius: 100px; }
-
-#toTop:hover {
-  background: #111; }
-  #toTop:hover:after {
-    -webkit-transform: scale(1.1);
-    -ms-transform: scale(1.1);
-    -o-transform: scale(1.1);
-    transform: scale(1.1);
-    border-color: #111111; }
 
 #toTop:active, #toTop:focus {
   outline: none;

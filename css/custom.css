@@ -1725,17 +1725,9 @@ to {
 
 .edicion {
     text-align: center;
-    padding-bottom:20px;
-    border-bottom:1px solid #BD2A26
 }
 
-.edicion h3 a {
-    text-decoration: none;
-    color: black;
-    font:16px "Helvetica Neue", Helvetica, Arial, sans-serif;
-    text-transform:uppercase;
-    text-align:center;
-}
+
 
 #banner {
     text-align: center;
@@ -1820,21 +1812,7 @@ left:-30px;
 padding-bottom:220px;
 right:-30px;
 }
-.views-field{
-/*transition-duration*/
--webkit-transition-duration:.5s;
-   -moz-transition-duration:.5s;
-     -o-transition-duration:.5s;
-        transition-duration:.5s;
-}
-.view-id-vamos .views-field:hover{
-/*transform*/
--webkit-transform:scale(1.05);
-   -moz-transform:scale(1.05);
-    -ms-transform:scale(1.05);
-     -o-transform:scale(1.05);
-        transform:scale(1.05);
-}
+
 /*index*/
 #index{
 background-color:#0CAFD7;
@@ -1868,4 +1846,7 @@ margin-top: 2.6em;
 position: absolute;
 top: 0px;
 left: 38px;
+}
+.edicion img{
+  width:370px;
 }
