@@ -339,6 +339,7 @@ footer .footer-top .blockcategories_footer {
 
 #tmhtmlcontent_topColumn li a:hover {
     background: #fff; 
+    border:1px solid #BD2A26;
 }
 
 /* content home row */
@@ -385,6 +386,7 @@ footer .footer-top .blockcategories_footer {
       -moz-border-radius: 5px;
       -webkit-border-radius: 5px;
       border-radius: 5px;
+
       font-family: "Adamina", serif;
       padding: 23px 44px 23px;
       background: #fff;
@@ -399,6 +401,22 @@ footer .footer-top .blockcategories_footer {
     background: #BD2A26;
     color: #fff;
 	text-decoration: none;
+
+}
+.buttonSpecial{
+      background: #BD2A26;
+      font-size: 22px;
+      color: #ffffff;
+      text-transform:uppercase;
+      border-radius: 5px;
+      padding: 23px 44px 23px;
+      transition: all 0.3s ease;
+      font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+.buttonSpecial:hover{
+  background:#ffffff;
+  color:#000000;
+  border:1px solid #BD2A26;
 }
 
 
@@ -1849,19 +1867,3 @@ position: absolute;
 top: 0px;
 left: 38px;
 }
-
-.buttonSpecial {
-    
-    background-color:#BD2A26;
-    color:#ffffff !important;
-    font-size:30px !important;
-    font-weight:bold;
-    font:normal 15px/20px "Adamina", serif;
-    border-radius: 50px;
-    padding: 20px !important;
-    margin: 50px auto !important;
-}
-.buttonSpecial:hover {
-    background-color:#ffffff !important;
-    border: 1px solid #BD2A26 !important;
-    color:#000000 !important;
