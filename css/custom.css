@@ -1497,6 +1497,8 @@ to {
       background: #56cdff; }
     #social_block ul li.google-plus a {
       background: #d44934; }
+    #social_block ul li.youtube a {
+      background: #d44934; }
     #social_block ul li {
       display: inline-block;
       text-align: center;
