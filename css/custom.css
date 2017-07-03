@@ -636,7 +636,7 @@ Custom blocks
       #block-views-block-view-1-block-1 .views-view-grid>.row>.col h2 {
         background: #fff;
         padding: 33px 42px 30px;
-        font-size: 30px;
+        font-size: 20px;
         line-height: 1em;
         color: #333333;
         font-family: "Adamina", serif;
@@ -1727,7 +1727,9 @@ to {
     text-align: center;
 }
 
-
+.edicion img{
+  width:370px;
+}
 
 #banner {
     text-align: center;
@@ -1832,7 +1834,7 @@ line-height: 19px;
 .edic_ante
 {
 text-align: center;
-margin:70px auto;
+margin:50% auto;
 text-transform: uppercase;
 }
 
@@ -1846,7 +1848,4 @@ margin-top: 2.6em;
 position: absolute;
 top: 0px;
 left: 38px;
-}
-.edicion img{
-  width:370px;
 }
