@@ -555,7 +555,8 @@ Custom blocks
 	}
       
 	#block-views-block-view-1-block-1 .views-view-grid>.row>.col .views-field-field-image a:after {
-          content: "";
+          /*content: "";*/
+          content:"\f002";
           color: #fff;
           font-size: 60px;
           line-height: 1em;
@@ -607,6 +608,8 @@ Custom blocks
 		
         #block-views-block-view-1-block-1 .views-view-grid>.row>.col:hover h2 {
           color: #fff; }
+        #block-views-block-view-1-block-1 .views-view-grid>.row>.col:hover h5 {
+          color: #fff; }
           #block-views-block-view-1-block-1 .views-view-grid>.row>.col:hover h2:before {
             height: 100%; }
       #block-views-block-view-1-block-1 .views-view-grid>.row>.col .views-field-title {
@@ -635,8 +638,8 @@ Custom blocks
           transition-delay: 0.15s; }
       #block-views-block-view-1-block-1 .views-view-grid>.row>.col h2 {
         background: #fff;
-        padding: 25px 5px;
-        font-size: 20px;
+        padding: 15px 5px;
+        font-size:20px;
         line-height: 1em;
         color: #333333;
         font-family: "Adamina", serif;
@@ -647,6 +650,11 @@ Custom blocks
         transition: all 0.3s ease;
         position: relative;
         z-index: 3; }
+        #block-views-block-view-1-block-1 .views-view-grid>.row>.col h5{
+          margin:10px 5px 0 5px;
+          color:#999;
+
+        }
         @media (max-width: 1199px) {
           #block-views-block-view-1-block-1 .views-view-grid>.row>.col h2 {
             padding: 33px 20px 30px;
