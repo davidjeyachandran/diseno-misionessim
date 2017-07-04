@@ -520,7 +520,9 @@ Custom blocks
     #block-views-block-view-1-block-1 {
       margin-top: 30px; } }
   #block-views-block-view-1-block-1 .views-view-grid>.row {
-    margin-bottom: 0; }
+    margin-bottom:0px; }
+   .edicion #block-views-block-view-1-block-1 .views-view-grid>.row {
+    margin-bottom:50px; }
     @media (max-width: 767px) {
       #block-views-block-view-1-block-1 .views-view-grid>.row {
         margin: 0 -5px; } }
@@ -676,7 +678,7 @@ Custom blocks
           -webkit-transition: all 0.3s ease;
           transition: all 0.3s ease; }
       #block-views-block-view-1-block-1 .views-view-grid>.row>.col img {
-        max-width: 100%;
+        width:270px;
         height: auto;
         -moz-transition: all 1s ease;
         -o-transition: all 1s ease;
