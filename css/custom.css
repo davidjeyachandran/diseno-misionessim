@@ -915,7 +915,8 @@ ul.product_list .product-image-container {
     ul.product_list .product-image-container .quick-view span {
       display: none; }
     ul.product_list .product-image-container .quick-view:after {
-      content: "";
+      /*content: "";*/
+      content:"\f002";
       color: #fff;
       font-size: 70px;
       line-height: 1em;
