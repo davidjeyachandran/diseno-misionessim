@@ -1876,7 +1876,7 @@ left: 38px;
 .caja-blog{
   background:#f5f5f5;
   padding:15px;
-  margin:15px 0;
+  margin:15px 5px;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 .caja-blog h4{
@@ -1895,10 +1895,6 @@ left: 38px;
 /*===============================================================
 ======================blog completo==============================
 =================================================================*/
-.blog-completo{
-  background:#f5f5f5;
-  padding:5%;
-}
 .blog-completo p{
   text-align:justify;
 }
