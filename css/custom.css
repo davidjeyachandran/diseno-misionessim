@@ -638,20 +638,26 @@ Custom blocks
           border-width: 0px 0px 0 0px;
           border-color: #fff transparent transparent transparent;
           transition-delay: 0.15s; }
-      #block-views-block-view-1-block-1 .views-view-grid>.row>.col h2 {
-        background: #fff;
+
+        #block-views-block-view-1-block-1 .views-view-grid>.row>.col h2 {
+          background: #fff;
+          padding: 33px 42px 30px;
+          font-size: 30px;
+          line-height: 1em;
+          color: #333333;
+          font-family: "Adamina", serif;
+          margin: 0;
+          -moz-transition: all 0.3s ease;
+          -o-transition: all 0.3s ease;
+          -webkit-transition: all 0.3s ease;
+          transition: all 0.3s ease;
+          position: relative;
+          z-index: 3;         }
+      .edicion #block-views-block-view-1-block-1 .views-view-grid>.row>.col h2 {
         padding: 15px 5px;
         font-size:20px;
-        line-height: 1em;
-        color: #333333;
-        font-family: "Adamina", serif;
-        margin: 0;
-        -moz-transition: all 0.3s ease;
-        -o-transition: all 0.3s ease;
-        -webkit-transition: all 0.3s ease;
-        transition: all 0.3s ease;
-        position: relative;
-        z-index: 3; }
+        }
+
         #block-views-block-view-1-block-1 .views-view-grid>.row>.col h5{
           margin:10px 5px 0 5px;
           color:#999;
