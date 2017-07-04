@@ -1872,9 +1872,7 @@ left: 38px;
 /*===============================================================
 ======================la revista=================================
 =================================================================*/
-*{
-  outline:1px solid red;
-}
+
 .caja-blog{
   background:#f5f5f5;
   padding:15px;
@@ -1886,4 +1884,10 @@ left: 38px;
 }
 .caja-blog img{
   margin:15px 0;
+}
+#sidebar img{
+  margin:15% 0;
+}
+#sidebar .buttonSpecial{
+  margin:20%;
 }
