@@ -678,7 +678,7 @@ Custom blocks
           -webkit-transition: all 0.3s ease;
           transition: all 0.3s ease; }
       #block-views-block-view-1-block-1 .views-view-grid>.row>.col img {
-        width:270px;
+        max-width:100%;
         height: auto;
         -moz-transition: all 1s ease;
         -o-transition: all 1s ease;
@@ -693,6 +693,10 @@ Custom blocks
         -o-transform: scale(1, 1);
         -webkit-transform: scale(1, 1);
         transform: scale(1, 1);
+}
+.edicion #block-views-block-view-1-block-1 .views-view-grid>.row>.col img {
+        width:270px;
+       
 }
 @media (max-width: 767px) {
     #block-views-block-view-1-block-1 .views-view-grid>.row>.col img {
