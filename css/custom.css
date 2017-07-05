@@ -895,7 +895,11 @@ ul.product_list .product-image-container {
     width:500px; }
     @media (max-width: 767px) {
       ul.product_list .product-image-container img {
-        width: 100%; } }
+        width: 100%; } 
+      }
+     @media (min-width:1680px) {
+      .revista-semana ul.product_list .product-image-container .quick-view {
+    width: 500px; }}
   ul.product_list .product-image-container #thumb-2 {
     display: none; }
   ul.product_list .product-image-container .quick-view {
@@ -913,8 +917,7 @@ ul.product_list .product-image-container {
     background: rgba(0, 0, 0, 0.5);
     filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
     opacity: 0; }
-    .revista-semana ul.product_list .product-image-container .quick-view {
-    width: 500px; }
+    
     ul.product_list .product-image-container .quick-view span {
       display: none; }
     ul.product_list .product-image-container .quick-view:after {
