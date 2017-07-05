@@ -5,7 +5,9 @@ Custom Classes
 **************************************/
 
 /* parallax section */
-
+*{
+  outline: 1px solid red;
+}
 .parallax_section {
   position: relative;
   width: 100%;
@@ -892,6 +894,9 @@ ul.product_list .product-image-container {
     transition: all 0.3s ease; }
   ul.product_list .product-image-container img {
     margin: 0 auto; }
+  .revista-semana ul.product_list .product-image-container img {
+    margin: 0 auto;
+    width:50%; }
     @media (max-width: 767px) {
       ul.product_list .product-image-container img {
         width: 100%; } }
@@ -912,6 +917,9 @@ ul.product_list .product-image-container {
     background: rgba(0, 0, 0, 0.5);
     filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
     opacity: 0; }
+    .revista-semana ul.product_list .product-image-container .quick-view {
+    left:25%;
+    width: 50%; }
     ul.product_list .product-image-container .quick-view span {
       display: none; }
     ul.product_list .product-image-container .quick-view:after {
@@ -1020,6 +1028,10 @@ ul.product_list.grid > li .product-container {
     ul.product_list.grid > li .product-container .product-image-container .product_img_link {
       display: block;
       background: white; }
+    .revista-semana ul.product_list.grid > li .product-container .product-image-container .product_img_link {
+      display: block;
+      background: white;
+      text-align:center; }
   ul.product_list.grid > li .product-container h5 {
     padding: 0;
     margin: 0 0 23px; }
