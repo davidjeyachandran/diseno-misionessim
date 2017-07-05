@@ -899,7 +899,11 @@ ul.product_list .product-image-container {
       }
      @media (min-width:1680px) {
       .revista-semana ul.product_list .product-image-container .quick-view {
-    width: 500px; }}
+    width: 500px;
+     }
+     .revista-vamos .col-md4{
+      width: 0;
+      }}
   ul.product_list .product-image-container #thumb-2 {
     display: none; }
   ul.product_list .product-image-container .quick-view {
