@@ -914,7 +914,6 @@ ul.product_list .product-image-container {
     filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
     opacity: 0; }
     .revista-semana ul.product_list .product-image-container .quick-view {
-    left:57px;
     width: 500px; }
     ul.product_list .product-image-container .quick-view span {
       display: none; }
@@ -1026,10 +1025,6 @@ ul.product_list.grid > li .product-container  a:hover{
     ul.product_list.grid > li .product-container .product-image-container .product_img_link {
       display: block;
       background: white; }
-    .revista-semana ul.product_list.grid > li .product-container .product-image-container .product_img_link {
-      display: block;
-      background: white;
-      text-align:center; }
   ul.product_list.grid > li .product-container h5 {
     padding: 0;
     margin: 0 0 23px; }
