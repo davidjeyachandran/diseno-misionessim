@@ -118,11 +118,6 @@ Main Classes
 		padding-right: 0;
 	}
 }
-
-.container-inline{
-	padding-bottom: 10px;
-}
-
 /* navbar */
 
 .nav > li > a:focus, .nav > li > a:hover{
@@ -131,6 +126,7 @@ Main Classes
 
 .navbar {
 	border-radius: 0;
+  margin-bottom:0;
 }
 
 .navbar-brand {
@@ -381,8 +377,7 @@ Menus
 
 /* top navbar */
 
-nav#top-nav-container {
-  padding: 45px 0;
+nav #top-nav-container{
   margin-bottom: 0;
 }
 
@@ -392,11 +387,12 @@ nav#top-nav-container {
 
 #top-navbar-row-1 ul.menu{
   text-align: right;
+  margin:0;
 }
 
 #top-navbar-row-1  ul.menu li {
   display: inline-block;
-  padding: 15px;
+  padding:20px 0 15px 0;
 }
 
 #top-navbar-row-1  ul.menu li:last-child {
@@ -668,7 +664,7 @@ Blocks
 #block-searchform {
   float: right;
   width: 269px;
-  padding-top: 20px;
+  /*padding-top: 20px;*/
   border: none;
 }
 
