@@ -851,3 +851,6 @@ toTop
 		display: none !important;
 	}
 }
+*{
+  outline: 1px solid green;
+}

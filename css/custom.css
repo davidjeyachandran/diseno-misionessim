@@ -402,15 +402,13 @@ footer .footer-top .blockcategories_footer {
 
 }
 .buttonSpecial{
-      background: #BD2A26;
-      font-size: 22px;
-      color: #ffffff;
-      text-transform:uppercase;
-      border-radius: 5px;
-      padding: 23px 44px 23px;
-      transition: all 0.3s ease;
-      margin: 10%;
-      font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+    background: #BD2A26;
+    font-size: 22px;
+    color: #ffffff;
+    text-transform: uppercase;
+    border-radius: 5px;
+    padding: 20px 40px;
+    transition: all 0.3s ease;
 }
 .buttonSpecial:hover{
   background:#ffffff;
@@ -889,7 +887,8 @@ ul.product_list .product-image-container {
     -webkit-transition: all 0.3s ease;
     transition: all 0.3s ease; }
   ul.product_list .product-image-container img {
-    margin: 0 auto; }
+    margin: 30px auto;
+    width: 100%}
   .revista-semana ul.product_list .product-image-container img {
     margin: 0 auto;
     width:500px; }
@@ -1004,9 +1003,9 @@ ul.product_list > li .product-container:hover .quick-view {
     -moz-animation: spinAround 2s linear infinite;
     animation: spinAround 2s linear infinite; }
 
-ul.product_list > li {
+/*ul.product_list > li {
   margin-bottom: 30px; }
-
+*/
 @media (min-width: 480px) and (max-width: 767px) {
   ul.product_list.grid > li {
     width: 50%;
@@ -1019,8 +1018,7 @@ ul.product_list.grid > li .btn.lnk_view {
     ul.product_list.grid > li .btn.lnk_view {
       width: 117px; } }
 ul.product_list.grid > li .product-container {
-  background: white;
-  padding-bottom: 8px; }
+  background: white;}
 .revista-semana ul.product_list.grid > li .product-container {
   margin: 10% auto; }
 ul.product_list.grid > li .product-container  a:hover{
@@ -1204,8 +1202,8 @@ ul.product_list.list > li .right-block .right-block-content .functional-buttons 
   ul.product_list.list > li {
     text-align: center; } }
 
-ul.product_list.tab-pane > li {
-  margin-bottom: 30px; }
+/*ul.product_list.tab-pane > li {
+  margin-bottom: 30px; }*/
 	ul.product_list.tab-pane > li .availability {
     display: none; }
   @media (min-width: 480px) and (max-width: 767px) {
@@ -1867,7 +1865,7 @@ line-height: 19px;
 .edic_ante
 {
 text-align: center;
-margin:50% auto;
+margin:10% auto;
 text-transform: uppercase;
 }
 
