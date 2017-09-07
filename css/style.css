@@ -25,8 +25,7 @@ body{
 h1 {
 	font: normal 20px/24px "Adamina", serif;
 	color: #555454;
-	padding: 20px 0 20px 0;
-	margin: 0 0 30px;
+	padding: 20px 0;
 	border-bottom: 1px solid #e3e3e3;
 	overflow: hidden;
   text-transform:uppercase;
@@ -169,9 +168,9 @@ Main Classes
 	content: none;
 }
 
-.breadcrumb ol li + li{
+/*.breadcrumb ol li + li{
 	margin-left: -1px;
-}
+}*/
 
 .breadcrumb a {
     display: block;
@@ -213,9 +212,9 @@ Main Classes
 	border-bottom: 1px solid #fff;
 }
 
-.tabs ul.primary li + li {
+./*tabs ul.primary li + li {
 	margin-left: -1px;
-}
+}*/
 
 .tabs ul.primary li:first-child{
 	margin-left: 0px;
@@ -301,8 +300,8 @@ Main Classes
     .block .title_block a:hover,
     .block h4 a:hover {
       color: #333333; }
-.block .list-block {
-  margin-top: -8px; }
+/*.block .list-block {
+  margin-top: -8px; }*/
   @media (max-width: 767px) {
     .block .list-block {
       margin-top: 0; } }
@@ -689,7 +688,7 @@ Blocks
     background: none;
     display: block;
     position: absolute;
-    bottom: -2px;
+    /*bottom: -2px;*/
     right: 0;
     border: none;
     color:#ccc;
@@ -777,23 +776,19 @@ Blocks
 toTop
 *******************************************/
 #toTop {
-  display: none;
-  width: 58px;
-  height: 58px;
-  position: fixed;
-  background:#BD2A26;
-  -moz-border-radius: 100px;
-  -webkit-border-radius: 100px;
-  border-radius: 100px;
-  margin-right: -700px !important;
-  right: 50%;
-  bottom: 100px;
-  z-index: 999;
-  cursor: pointer;
-  text-align: center;
-  -webkit-transition: background-color 0.3s ease;
-  -o-transition: background-color 0.3s ease;
-  transition: background-color 0.3s ease; }
+    width: 58px;
+    height: 58px;
+    position: fixed;
+    background: #BD2A26;
+    -moz-border-radius: 100px;
+    -webkit-border-radius: 100px;
+    border-radius: 100px;
+    right:5px;
+    bottom:5px;
+    -webkit-transition: background-color 0.3s ease;
+    -o-transition: background-color 0.3s ease;
+    transition: background-color 0.3s ease; 
+    z-index:1;}
   @media (max-width: 767px) {
     #toTop {
       display: none !important; } }
