@@ -89,7 +89,7 @@ Custom Structure
 
 footer .footer-top{
 	border-top: 1px solid #e4e4e4;
-	padding: 50px 0;
+	padding:20px 0;
 }
 
 footer .middle-footer-wrapper{
@@ -97,7 +97,7 @@ footer .middle-footer-wrapper{
 }
 
 footer .middle-footer{
-	padding: 50px 0;
+	padding: 10px 0;
     font-family: "Adamina", serif;
     text-align: center;	
 }
@@ -107,7 +107,7 @@ footer .bottom-footer-wrapper{
 }
 
 footer .bottom-footer{
-	padding: 50px 0;
+	padding: 10px 0;
     font-family: "Adamina", serif;
     text-align: center;
 }
@@ -517,8 +517,8 @@ Custom blocks
       margin-top: 30px; }*/ }
   #block-views-block-view-1-block-1 .views-view-grid>.row {
     margin-bottom:0px; }
-   .edicion #block-views-block-view-1-block-1 .views-view-grid>.row {
-    margin-bottom:50px; }
+   /*.edicion #block-views-block-view-1-block-1 .views-view-grid>.row {
+    margin-bottom:50px; }*/
     @media (max-width: 767px) {
       #block-views-block-view-1-block-1 .views-view-grid>.row {
         margin: 0 -5px; } }
@@ -1907,3 +1907,6 @@ left: 38px;
 /*===============================================================
 ======================blog completo==============================
 =================================================================*/
+*{
+  outline:1px solid red;
+}

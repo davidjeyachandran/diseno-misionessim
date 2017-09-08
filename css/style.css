@@ -604,10 +604,10 @@ Structure
 
 /* main content */
 
-#main-content{
+/*#main-content{
 	padding-bottom: 30px;
 	padding-top: 30px;
-}
+}*/
 
 /* footer */
 
@@ -845,7 +845,4 @@ toTop
 	#toTop {
 		display: none !important;
 	}
-}
-*{
-  outline: 1px solid green;
 }
