@@ -548,8 +548,6 @@ Custom blocks
 		background: #000;
 		position: relative;
 		overflow: hidden;
-	
-		/*display: none;*/
 	}
       
 	#block-views-block-view-1-block-1 .views-view-grid>.row>.col .views-field-field-image a:after {
@@ -651,7 +649,7 @@ Custom blocks
           z-index: 3;         }
       .edicion #block-views-block-view-1-block-1 .views-view-grid>.row>.col h2 {
         padding: 15px 5px;
-        font-size:20px;
+        font-size:15px;
         }
 
         #block-views-block-view-1-block-1 .views-view-grid>.row>.col h5{
@@ -662,7 +660,7 @@ Custom blocks
         @media (max-width: 1199px) {
           #block-views-block-view-1-block-1 .views-view-grid>.row>.col h2 {
             padding: 33px 20px 30px;
-            font-size: 23px; } }
+            font-size:15px; } }
         @media (max-width: 767px) {
           #block-views-block-view-1-block-1 .views-view-grid>.row>.col h2 {
             padding: 20px; } }
@@ -697,7 +695,7 @@ Custom blocks
         transform: scale(1, 1);
 }
 .edicion #block-views-block-view-1-block-1 .views-view-grid>.row>.col img {
-        width:270px;
+        width:100%;
        
 }
 @media (max-width: 767px) {
@@ -1916,4 +1914,7 @@ left: 38px;
 =================================================================*/
 .box-buttonSpecial{
   text-align: center;
+}
+.revista-semana-imagen{
+  margin:40px 0;
 }
