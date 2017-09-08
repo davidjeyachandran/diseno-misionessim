@@ -1104,7 +1104,11 @@ ul.product_list.list > li .product-container .button-container {
   ul.product_list.list > li .product-container .button-container span.btn {
     /*margin-right: -1px;*/
     z-index: 2; }
-
+@media (min-width: 476px){
+  ul.product_list.grid {
+  margin-right:0;
+}
+}
 @media (max-width: 479px) {
   ul.product_list.list > li .left-block {
     width: 100%; } }
