@@ -1008,8 +1008,11 @@ ul.product_list > li .product-container:hover .quick-view {
 */
 @media (min-width: 480px) and (max-width: 767px) {
   ul.product_list.grid > li {
-    width: 50%;
+    width: 90%;
     float: left; } }
+  ul.product_list.grid{
+    margin-right:25px;
+  }
 ul.product_list.grid > li .btn.lnk_view {
   padding: 16px 0 17px;
   text-align: center;
@@ -1907,6 +1910,6 @@ left: 38px;
 /*===============================================================
 ======================blog completo==============================
 =================================================================*/
-*{
-  outline:1px solid red;
+.box-buttonSpecial{
+  text-align: center;
 }
